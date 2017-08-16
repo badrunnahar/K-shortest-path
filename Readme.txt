@@ -1,11 +1,8 @@
 # K-shortest-path
 
-K-shortest-path take a directed acyclic graph (DAG) as one of the inputs and returns the list of K first shortest paths and 
-their costs from a given source node to a destination node. The original algorithm is based on Yen's K-shortest Path algorithm 
-(1971) which calls a slightly modified version of Dijkstra's algorithm implemented by Xiaodong Wang 2004.
+K-shortest-path take a directed acyclic graph (DAG) as one of the inputs and returns the list of K first shortest paths and their costs from a given source node to a destination node. The original algorithm is based on Yen's K-shortest Path algorithm (1971) which calls a slightly modified version of Dijkstra's algorithm implemented by Xiaodong Wang 2004.
 
-ExampleGraph contains two example DAGs: DAG1.txt and DAG2.txt. Each line of these text files contain three numbers. The first 
-two numbers represent two connected nodes of an edge and the third number represents the corresponding edge cost.  
+ExampleGraph contains two example DAGs: DAG1.txt and DAG2.txt. Each line of these text files contain three numbers. The first two numbers represent two connected nodes of an edge and the third number represents the corresponding edge cost.  
  
 Following is an example of calculating k-shortest paths by using these source codes.
 First compile the codes as follows and then enter the name of the DAG's file and, source and destination nodes. 
