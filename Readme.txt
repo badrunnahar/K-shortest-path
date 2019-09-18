@@ -5,7 +5,7 @@ K-shortest-path take a directed acyclic graph (DAG) as one of the inputs and ret
 ExampleGraph contains two example DAGs: DAG1.txt and DAG2.txt. Each line of these text files contain three numbers. The first two numbers represent two connected nodes of an edge and the third number represents the corresponding edge cost.  
  
 Following is an example of calculating k-shortest paths by using these source codes.
-First compile the codes as follows and then enter the name of the DAG's file and, source and destination nodes. 
+First compile the codes as follows and then enter the name of the DAG's file, and source and destination nodes. 
 
 $ g++  main.cpp  Dijkstra.cpp  Dijkstra.h  YensKpath.cpp  YensKpath.h 
 $ ./a.out 
